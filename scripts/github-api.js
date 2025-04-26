@@ -15,7 +15,7 @@ async function fetchGitHubUser(username) {
     const output = document.getElementById("output");
     output.innerHTML = "<p>Cargando datos de GitHub...</p>";
     
-    const user = await fetchGitHubUser("dexelmas"); // Usuario predeterminado
+    const user = await fetchGitHubUser("dexelmasgt"); // Usuario predeterminado
     if (user) {
       output.innerHTML = `
         <h2>${user.login}</h2>
